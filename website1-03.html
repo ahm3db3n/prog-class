@@ -43,5 +43,13 @@ s<!DOCTYPE HTML>
     <h2 class="city">Vatican City</h2>
     <p>Vatican City is the capital city of Vatican City.</p>
     <img src="flag-of-Vatican-City.png" alt="Vatican City">
+    # Clone/copy the Material Design lite source code.
+git clone https://github.com/google/material-design-lite.git
+# Go into the newly created folder containing the source code.
+cd material-design-lite
+# Install necessary dependencies.
+npm install && npm install -g gulp
+# Build a production version of the components.
+gulp
 </body>
 </html>
